@@ -8,4 +8,12 @@ para atingir determinado resultado.
 
 ## Referências
 
-[Lorem ipsum](./package.json)
+### Route handlers
+
+É possível criar uma API diretamente em aplicações next. Para fazer requisições basta usar 
+a fetch api ou uma biblioteca de terceiros. Essa abordagem é útil também para fazer requisições
+a databases diretamente ou por intermédio de ORM's.
+
+- [defininindo uma route handler](./src/app/api/users/route.ts)
+- [consumindo uma route handler](./src/app/users/page.tsx)
+- [documentação oficial](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
